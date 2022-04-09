@@ -22,7 +22,7 @@
 		5C60CEB527F4CAFF0007774A /* Cocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C60CEB427F4CAFF0007774A /* Cocktail.swift */; };
 		5C60CEB927F598170007774A /* CloudCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C60CEB827F598170007774A /* CloudCellViewModel.swift */; };
 		5C60CEBB27F5A1DE0007774A /* StartViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C60CEBA27F5A1DE0007774A /* StartViewControllerViewModel.swift */; };
-		5CBA78EB27FC8B8600D8173E /* CornerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBA78EA27FC8B8600D8173E /* CornerTextField.swift */; };
+		5CBA78EB27FC8B8600D8173E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBA78EA27FC8B8600D8173E /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		5C60CEB427F4CAFF0007774A /* Cocktail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktail.swift; sourceTree = "<group>"; };
 		5C60CEB827F598170007774A /* CloudCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudCellViewModel.swift; sourceTree = "<group>"; };
 		5C60CEBA27F5A1DE0007774A /* StartViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewControllerViewModel.swift; sourceTree = "<group>"; };
-		5CBA78EA27FC8B8600D8173E /* CornerTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerTextField.swift; sourceTree = "<group>"; };
+		5CBA78EA27FC8B8600D8173E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,7 +188,7 @@
 		5CBA790E27FDC9AB00D8173E /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
-				5CBA78EA27FC8B8600D8173E /* CornerTextField.swift */,
+				5CBA78EA27FC8B8600D8173E /* CustomTextField.swift */,
 				5C4D52E227FEFEB20050075A /* TagFlowLayout.swift */,
 			);
 			path = CustomViews;
@@ -320,7 +320,7 @@
 				5C4D52E727FF0E4B0050075A /* Extension + UIView.swift in Sources */,
 				5C60CEBB27F5A1DE0007774A /* StartViewControllerViewModel.swift in Sources */,
 				5C60CEB527F4CAFF0007774A /* Cocktail.swift in Sources */,
-				5CBA78EB27FC8B8600D8173E /* CornerTextField.swift in Sources */,
+				5CBA78EB27FC8B8600D8173E /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

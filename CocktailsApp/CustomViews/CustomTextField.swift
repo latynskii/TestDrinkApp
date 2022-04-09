@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CornerTextField: UITextField {
+class CustomTextField: UITextField {
     
     init(_ placeholderName: String, _ cornerRadius: CGFloat) {
         super.init(frame: .zero)

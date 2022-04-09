@@ -17,8 +17,8 @@ class StartViewController: UIViewController {
         return activityIndicator
     }()
     
-    private let roundedTextField = CornerTextField("Cocktail name", 10)
-    private let longTextField = CornerTextField("Cocktail name", 0)
+    private let roundedTextField = CustomTextField("Cocktail name", 10)
+    private let longTextField = CustomTextField("Cocktail name", 0)
             
     private var startViewModel: StartViewModel? {
         didSet {
